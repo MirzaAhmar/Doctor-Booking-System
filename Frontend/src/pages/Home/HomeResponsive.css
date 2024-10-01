@@ -1,0 +1,629 @@
+/* ====== 1.2 Hero section ====== */
+@media all and (max-width: 991px) {
+    #hero p {
+        margin-top: 12px;
+    }
+
+    #hero button {
+        margin: 20px 0;
+    }
+
+    #hero h1 {
+        padding: 0 112px 0 0;
+    }
+
+    #hero .container .row .col-md-6:first-of-type>div>p {
+        padding-right: 10px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #hero {
+        padding: 70px 0;
+    }
+
+    #hero h1 {
+        padding: 0 68px 0 0;
+    }
+
+    #hero button {
+        margin: 16px 0;
+    }
+
+    #hero .container .row .col-md-6:first-of-type>div>p {
+        padding-right: 10px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #hero h1 {
+        padding: 0 0 0 0;
+    }
+
+    #hero {
+        padding: 50px 0;
+    }
+
+    #hero button {
+        margin: 20px 0;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+    img[alt="heroImg"] {
+        width: 64%;
+    }
+
+    img[alt="heroImg2"] {
+        width: 64%;
+    }
+
+    img[alt="heroImg3"] {
+        width: 64%;
+    }
+}
+
+/* ====== End 1.2 Hero section ====== */
+
+/* ====== 1.3 services section ====== */
+@media all and (max-width: 991px) {
+    #services h2 {
+        padding: 0 200px 0 200px;
+    }
+
+    .serviceContent p {
+        padding: 14px 200px 70px 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #services {
+        padding: 70px 0;
+    }
+
+    #services h2 {
+        padding: 0 100px 0 100px;
+    }
+
+    .serviceContent p {
+        padding: 14px 100px 50px 100px;
+    }
+
+    img[alt="servicesIcon1"] {
+        width: 144px;
+    }
+
+    img[alt="servicesIcon2"] {
+        width: 235px;
+    }
+
+    img[alt="servicesIcon3"] {
+        width: 144px;
+    }
+
+    img[alt="servicesIcon3"] {
+        width: 223px;
+    }
+
+    .servicecard p {
+        padding: 0 6px;
+    }
+
+    .servicecard {
+        gap: 16px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #services {
+        padding: 50px 0;
+    }
+
+    #services h2 {
+        padding: 0 10px;
+    }
+
+    .serviceContent p {
+        padding: 14px 20px 50px 20px;
+    }
+
+    .servicecard a {
+        padding: 8px 11px;
+    }
+
+    .servicecard {
+        gap: 8px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .serviceContent p {
+        padding: 14px 0 30px 0;
+    }
+
+    .servicecard p {
+        font-size: 14px !important;
+    }
+
+    img[alt="servicesIcon3"] {
+        width: 150px;
+    }
+
+    img[alt="servicesIcon2"] {
+        width: 200px;
+    }
+
+    img[alt="servicesIcon1"] {
+        width: 130px;
+    }
+}
+
+/* ====== End 1.3 services section ====== */
+
+/* ====== 1.4 About section ====== */
+@media all and (max-width: 991px) {
+    .drName {
+        right: 24px;
+        bottom: 32px;
+    }
+
+    #about .col-md-6:nth-of-type(2) p:nth-of-type(2),
+    #about .col-md-6:nth-of-type(2) p:nth-of-type(1) {
+        padding-top: 12px;
+    }
+
+    #about button {
+        margin-top: 20px;
+    }
+
+    img[alt='aboutImg'] {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #about {
+        padding: 70px 0;
+    }
+
+    #about .col-md-6:nth-of-type(2) p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .drName {
+        margin-top: 4px;
+        padding: 12px 36px 13px 18px;
+        width: auto;
+        position: static;
+    }
+
+    #about .col-md-6:nth-of-type(2) p:nth-of-type(2),
+    #about .col-md-6:nth-of-type(2) p:nth-of-type(1) {
+        padding-top: 20px;
+    }
+
+    #about button {
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #about {
+        padding: 50px 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #about {
+        padding: 50px 0;
+    }
+
+    #about .col-md-6:nth-of-type(2) p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #about .col-md-6:nth-of-type(2) p:nth-of-type(1) {
+        padding-top: 14px;
+    }
+
+    #about button {
+        margin-top: 20px;
+    }
+}
+
+/* ====== End 1.4 About section ====== */
+
+/* ====== 1.5 Services List section ====== */
+@media all and (max-width: 991px) {
+    .serListContent {
+        padding: 0 242px;
+    }
+
+    .serListCard {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #serviceList {
+        padding: 70px 0;
+    }
+
+    .serListContent {
+        padding: 0 154px;
+    }
+
+    #serviceList h3 {
+        margin-top: 60px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #serviceList {
+        padding: 50px 0;
+    }
+
+    .serListContent {
+        padding: 0 0 35px 0;
+        text-align: left;
+    }
+
+    .serListCard p {
+        font-size: 14px !important;
+        line-height: 22px !important;
+        padding: 10px 0 20px 0;
+    }
+
+    #serviceList h3 {
+        margin-top: 0 !important;
+    }
+
+    .serListCard a {
+        padding: 10px 13px;
+    }
+
+}
+
+/* ====== End 1.5 Services List section ====== */
+
+/* ====== 1.6 Feature section ====== */
+@media all and (max-width: 991px) {
+    img[alt='FeatureImg'] {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #feature {
+        padding: 70px 0;
+    }
+
+    img[alt='FeatureImg'] {
+        width: 100%;
+    }
+
+    #feature ul {
+        margin: 20px 0 30px 10px;
+    }
+
+    .drTime {
+        bottom: 34px;
+        left: -20px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #feature {
+        padding: 50px 0;
+    }
+
+    .drTime {
+        left: 0;
+        bottom: 0;
+    }
+
+    #feature ul {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin: 20px 0 30px 20px;
+    }
+}
+
+/* ====== End 1.6 Feature section ====== */
+
+/* ====== 1.7 Doctor section ====== */
+@media all and (max-width: 991px) {
+    #doctor .drCard {
+        padding: 0;
+    }
+
+    .doctorContent {
+        padding: 0 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #doctor {
+        padding: 70px 0;
+    }
+
+    .doctorContent p {
+        padding: 12px 0 36px 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #doctor {
+        padding: 50px 0;
+    }
+
+    .doctorContent {
+        padding: 0;
+    }
+
+    #doctor h3 {
+        padding: 14px 0 12px 0;
+    }
+}
+
+/* ====== End 1.7 Doctor section ====== */
+
+/* ====== 1.8 Faq section ====== */
+@media all and (max-width: 991px) {
+    #faq img {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #faq {
+        padding: 70px 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #faq {
+        padding: 50px 0;
+    }
+}
+
+/* ====== End 1.8 Faq section ====== */
+
+/* ====== 1.9 Testimonial section ====== */
+@media all and (max-width: 991px) {
+    .testimonialContent {
+        padding: 0 200px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #testimonial {
+        padding: 70px 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #testimonial {
+        padding: 50px 0;
+    }
+
+    .testimonialContent {
+        padding: 0;
+    }
+
+    .swiper-slide {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .testimonialContent p {
+        padding: 16px 0 50px 0;
+    }
+
+    #testimonial .swiper-wrapper p {
+        text-align: center;
+    }
+}
+
+/* ====== End 1.9 Testimonial section ====== */
+
+/* ====== 1.10 Footer Section section ====== */
+@media all and (max-width: 991px) {
+    footer .socialIcons a {
+        height: 37px;
+        width: 40px;
+    }
+    footer .shap2 {
+        top: 184px;
+        right: 10px;
+    }
+    footer .shap1 {
+        bottom: 0;
+        left: 0;
+    }
+}
+@media all and (max-width: 575px){
+}
+
+/* ====== End 1.10 Footer Section section ====== */
+
+/* ====== 2.1 Hero section ====== */
+@media all and (max-width: 767px) {
+    .searchDr {
+        background-color: #0066ff2c;
+        display: block;
+        margin: 30px auto 0;
+        width: auto;
+        border-radius: 6px;
+    }
+
+    .searchDr div {
+        justify-content: space-between;
+    }
+}
+
+/* ====== End 2.1 Hero section ====== */
+
+/* ====== Doctor Detail style ====== */
+@media all and (max-width: 768px) {
+    .dr_detail p {
+        padding: 10px 10px 0 0;
+    }
+
+    #dr_Detail {
+        padding: 70px 0;
+    }
+
+    .qualification table td {
+        padding: 1.2rem 4px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .timeSlots {
+        margin-top: 35px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .reviewForm {
+        padding: 20px 10px;
+    }
+
+    .reviewForm textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .reviewForm svg {
+        font-size: 32px;
+    }
+
+    .feedback-button {
+        padding: 16px 24px;
+    }
+}
+
+/* ====== End Doctor Detail style ====== */
+
+/* ====== Login / SignUp page style ====== */
+@media all and (max-width: 991px) {
+    .login_Form {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    /* .login_Form{
+        width: 50%;
+    } */
+    .login_Form select {
+        padding: 6px 8px 6px 4px;
+    }
+}
+
+@media all and (max-width: 575px) {
+
+    /* .login_Form{
+        width: 100%;
+    } */
+    #login {
+        padding: 70px 0;
+    }
+
+    .chooseFile label {
+        font-size: 14px;
+    }
+
+    .chooseFile {
+        width: 110px;
+        height: 40px;
+    }
+
+    .uploadImg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .login_Form {
+        padding: 30px 10px;
+    }
+}
+
+/* ====== End Login / SignUp page style ====== */
+
+/* ====== Contact page style ====== */
+@media all and (max-width: 991px) {
+    .contactForm {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .contactContent {
+        padding: 70px 0;
+    }
+
+    #contact {
+        padding: 0 0 50px 0;
+    }
+}
+
+@media all and (max-width: 575px) {
+    #contact form {
+        padding: 0;
+    }
+
+    #contact button {
+        width: 100%;
+    }
+
+    .contactContent {
+        padding: 70px 20px;
+    }
+}
+
+/* ====== End Contact page style ====== */
+
+/* ====== Error 404 page style ====== */
+@media all and (max-width: 768px) {
+    #error404 {
+        padding: 70px 0;
+    }
+
+    #error404 img {
+        width: 400px;
+    }
+
+    #error404 h4 {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #error404 img {
+        width: 100%;
+    }
+}
+
+/* ====== End Error 404 page style ====== */
+
+/* ====== User Profile page style ====== */
+@media all and (max-width: 768px){
+    #myAccount {
+        padding: 70px 0 !important;
+    }
+}
+@media all and (max-width: 575px){
+    #myAccount figure {
+        height: 80px;
+        width: 80px;
+    }
+}
+/* ====== End User Profile page style ====== */
